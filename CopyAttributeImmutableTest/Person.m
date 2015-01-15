@@ -1,14 +1,13 @@
 //
-//  ViewController.h
+//  Person.m
 //  CopyAttributeImmutableTest
 //
 //  Created by Adam Johns on 1/14/15.
 //  Copyright (c) 2015 Adam Johns. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Person.h"
 
-@interface ViewController : UIViewController
+@implementation Person
 
 @end
-

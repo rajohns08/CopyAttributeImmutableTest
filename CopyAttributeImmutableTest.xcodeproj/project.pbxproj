@@ -14,6 +14,7 @@
 		DC95BC921A66CE0800C1BEC4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC95BC911A66CE0800C1BEC4 /* Images.xcassets */; };
 		DC95BC951A66CE0800C1BEC4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC95BC931A66CE0800C1BEC4 /* LaunchScreen.xib */; };
 		DC95BCA11A66CE0800C1BEC4 /* CopyAttributeImmutableTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC95BCA01A66CE0800C1BEC4 /* CopyAttributeImmutableTestTests.m */; };
+		DC95BCAF1A67099200C1BEC4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DC95BCAE1A67099200C1BEC4 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		DC95BC9A1A66CE0800C1BEC4 /* CopyAttributeImmutableTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopyAttributeImmutableTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC95BC9F1A66CE0800C1BEC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC95BCA01A66CE0800C1BEC4 /* CopyAttributeImmutableTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CopyAttributeImmutableTestTests.m; sourceTree = "<group>"; };
+		DC95BCAD1A67099200C1BEC4 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		DC95BCAE1A67099200C1BEC4 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				DC95BC911A66CE0800C1BEC4 /* Images.xcassets */,
 				DC95BC931A66CE0800C1BEC4 /* LaunchScreen.xib */,
 				DC95BC841A66CE0800C1BEC4 /* Supporting Files */,
+				DC95BCAD1A67099200C1BEC4 /* Person.h */,
+				DC95BCAE1A67099200C1BEC4 /* Person.m */,
 			);
 			path = CopyAttributeImmutableTest;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				DC95BC8D1A66CE0800C1BEC4 /* ViewController.m in Sources */,
 				DC95BC8A1A66CE0800C1BEC4 /* AppDelegate.m in Sources */,
+				DC95BCAF1A67099200C1BEC4 /* Person.m in Sources */,
 				DC95BC871A66CE0800C1BEC4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
